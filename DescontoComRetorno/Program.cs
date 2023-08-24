@@ -14,5 +14,5 @@ double resultado;
 CalculoDesconto valor_desconto = new CalculoDesconto();
 
 resultado = valor_desconto.Calculo(valor, desconto);
-// Console.WriteLine($"Com o valor de R${valor:F2} e aplicando o desconto de {desconto:F1}% o valor final fica em R${resultado}");
+Console.WriteLine($"Com o valor de {valor:C2} e aplicando o desconto de {desconto:F1}% o valor final fica em {resultado:C2}");
 

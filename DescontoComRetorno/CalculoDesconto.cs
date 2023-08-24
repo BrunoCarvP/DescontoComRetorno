@@ -13,11 +13,5 @@ namespace DescontoComRetorno
             
             return  valor - (valor * desconto) / 100;
         }
-
-        
-        public override string ToString(double valor, double desconto)
-        {
-            return "valor" + valor + desconto + "igual"  ;
-        }
     }
 }
